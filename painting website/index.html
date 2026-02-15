@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          PrimeCoat Painting | Professional Painting Services Brampton
+        </title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Lato:wght@300;400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <!-- Header -->
+        <header>
+          <nav>
+            <div class="logo">Prime<span>Coat</span></div>
+            <ul class="nav-menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <button class="cta-btn" onclick="scrollToSection('contact')">
+              Get Quote
+            </button>
+          </nav>
+        </header>
+
+        <main>
+          <!-- Hero Section -->
+          <section class="hero" id="home">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h1>Premium Painting <span>Solutions</span> for Brampton</h1>
+                <p>
+                  Transform your space with professional painting services. We
+                  deliver excellence with every brushstroke, creating beautiful,
+                  lasting results for residential and commercial properties.
+                </p>
+
+                <div class="hero-features">
+                  <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <p><strong>Fully Licensed</strong></p>
+                  </div>
+                  <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <p><strong>20+ Years</strong></p>
+                  </div>
+                  <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <p><strong>Insured & Bonded</strong></p>
+                  </div>
+                  <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <p><strong>Free Estimates</strong></p>
+                  </div>
+                </div>
+
+                <div class="hero-buttons">
+                  <button
+                    class="btn-primary"
+                    onclick="scrollToSection('contact')"
+                  >
+                    Request Quote
+                  </button>
+                  <button
+                    class="btn-secondary"
+                    onclick="scrollToSection('portfolio')"
+                  >
+                    View Portfolio
+                  </button>
+                </div>
+              </div>
+
+              <div class="hero-image">
+                <div class="image-container">
+                  <div class="image-placeholder">🎨</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Services Section -->
+          <section class="services" id="services">
+            <div class="section-header">
+              <h2>Our Premium Services</h2>
+              <p>
+                From interior walls to commercial exteriors, we provide
+                comprehensive painting solutions tailored to your needs
+              </p>
+            </div>
+
+            <div class="services-grid">
+              <div class="service-card reveal">
+                <div class="service-icon">🏠</div>
+                <h3>Residential Painting</h3>
+                <p>
+                  Transform your home with high-quality interior and exterior
+                  painting. We handle everything from bedroom refreshes to
+                  complete home renovations with precision and care.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-icon">🏢</div>
+                <h3>Commercial Painting</h3>
+                <p>
+                  Professional painting solutions for businesses. We work
+                  efficiently to minimize disruption while delivering stunning
+                  results that represent your brand perfectly.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-icon">🎨</div>
+                <h3>Exterior Coating</h3>
+                <p>
+                  Protect and beautify your property's exterior. We use premium
+                  weather-resistant coatings designed to withstand Brampton's
+                  climate for years to come.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-icon">✨</div>
+                <h3>Cabinet Refinishing</h3>
+                <p>
+                  Give your kitchen and bathroom cabinets a luxurious new look
+                  without the expense of replacement. Beautiful finishes that
+                  last.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-icon">🖼️</div>
+                <h3>Accent Walls</h3>
+                <p>
+                  Create visual interest and depth with expertly executed accent
+                  walls. We help you choose colors and execute designs that
+                  transform any room.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+
+              <div class="service-card reveal">
+                <div class="service-icon">🛠️</div>
+                <h3>Surface Preparation</h3>
+                <p>
+                  Professional preparation is key to perfect results. We handle
+                  drywall repair, sanding, priming, and all prep work for
+                  flawless finishes.
+                </p>
+                <a href="#" class="service-link">Learn More →</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Stats Section -->
+          <section class="stats">
+            <div class="stats-grid">
+              <div class="stat-item reveal">
+                <h3>1000+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat-item reveal">
+                <h3>98%</h3>
+                <p>Customer Satisfaction</p>
+              </div>
+              <div class="stat-item reveal">
+                <h3>20+</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat-item reveal">
+                <h3>24/7</h3>
+                <p>Customer Support</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Portfolio Section -->
+          <section class="portfolio" id="portfolio">
+            <div class="section-header">
+              <h2>Recent Projects</h2>
+              <p>
+                View our latest completed projects showcasing our quality and
+                craftsmanship
+              </p>
+            </div>
+
+            <div class="portfolio-grid">
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #c41e3a 0%,
+                      #8b1428 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 3rem;
+                  "
+                >
+                  🏠
+                </div>
+                <div class="portfolio-content">
+                  <h3>Modern Family Home</h3>
+                  <p>
+                    Complete interior renovation with custom color selection
+                  </p>
+                </div>
+              </div>
+
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #f4e4c1 0%,
+                      #e8d4b0 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #333;
+                    font-size: 3rem;
+                  "
+                >
+                  🏢
+                </div>
+                <div class="portfolio-content">
+                  <h3>Corporate Office</h3>
+                  <p>Professional commercial space with accent walls</p>
+                </div>
+              </div>
+
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #4a4a4a 0%,
+                      #2a2a2a 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 3rem;
+                  "
+                >
+                  🎨
+                </div>
+                <div class="portfolio-content">
+                  <h3>Gallery Feature Wall</h3>
+                  <p>Artistic mural and premium finish application</p>
+                </div>
+              </div>
+
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #d4af37 0%,
+                      #b8941e 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #333;
+                    font-size: 3rem;
+                  "
+                >
+                  ✨
+                </div>
+                <div class="portfolio-content">
+                  <h3>Kitchen Cabinet Refit</h3>
+                  <p>Premium cabinet refinishing and hardware upgrade</p>
+                </div>
+              </div>
+
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #87ceeb 0%,
+                      #4a90e2 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 3rem;
+                  "
+                >
+                  🌳
+                </div>
+                <div class="portfolio-content">
+                  <h3>Exterior Transformation</h3>
+                  <p>Weather-resistant coating and exterior restoration</p>
+                </div>
+              </div>
+
+              <div class="portfolio-item reveal">
+                <div
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(
+                      135deg,
+                      #e91e63 0%,
+                      #c2185b 100%
+                    );
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 3rem;
+                  "
+                >
+                  🏡
+                </div>
+                <div class="portfolio-content">
+                  <h3>Living Room Makeover</h3>
+                  <p>Complete color consultation and luxury finish</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Testimonials Section -->
+          <section class="testimonials" id="testimonials">
+            <div class="section-header">
+              <h2>What Our Clients Say</h2>
+              <p>
+                Real feedback from satisfied homeowners and business owners in
+                Brampton
+              </p>
+            </div>
+
+            <div class="testimonials-grid">
+              <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">
+                  "PrimeCoat completely transformed our home! The quality of
+                  work was exceptional, and they finished on time. Highly
+                  recommend!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">SM</div>
+                  <div class="author-info">
+                    <h4>Sarah Mitchell</h4>
+                    <p>Homeowner, Brampton</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">
+                  "Professional, punctual, and precise. They handled our office
+                  renovation beautifully. Best painting company in Brampton!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">JT</div>
+                  <div class="author-info">
+                    <h4>James Thompson</h4>
+                    <p>Business Owner</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial-card reveal">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">
+                  "Outstanding attention to detail. They protected our
+                  furniture, cleaned up thoroughly, and the results are
+                  stunning. Worth every penny!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">EM</div>
+                  <div class="author-info">
+                    <h4>Emma Rodriguez</h4>
+                    <p>Interior Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- CTA Section -->
+          <section class="cta-section">
+            <h2>Ready to Transform Your Space?</h2>
+            <p>
+              Get a free, no-obligation estimate from our team of experts. We're
+              here to bring your vision to life.
+            </p>
+            <button class="btn-primary" onclick="scrollToSection('contact')">
+              Get Your Free Quote
+            </button>
+          </section>
+
+          <!-- Contact Section -->
+          <section class="services" id="contact">
+            <div class="section-header">
+              <h2>Get In Touch</h2>
+              <p>
+                Have a question or ready to start your project? Contact us today
+                for a free estimate
+              </p>
+            </div>
+
+            <div class="contact-form" style="margin-top: 40px">
+              <form onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="service">Service Type *</label>
+                  <input
+                    type="text"
+                    id="service"
+                    name="service"
+                    placeholder="e.g., Residential, Commercial"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Project Details *</label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn-primary"
+                  style="width: 100%; text-align: center"
+                >
+                  Send Inquiry
+                </button>
+              </form>
+            </div>
+          </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+          <div class="footer-grid">
+            <div class="footer-section">
+              <h3>PrimeCoat</h3>
+              <p style="opacity: 0.8; margin-bottom: 1.5rem">
+                Professional painting services in Brampton since 2004. Creating
+                beautiful spaces, one brushstroke at a time.
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">in</a>
+                <a href="#" class="social-link">🐦</a>
+                <a href="#" class="social-link">in</a>
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Residential Painting</a></li>
+                <li><a href="#">Commercial Painting</a></li>
+                <li><a href="#">Exterior Coating</a></li>
+                <li><a href="#">Cabinet Refinishing</a></li>
+                <li><a href="#">Accent Walls</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h3>Contact Info</h3>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <strong>📍</strong>
+                  <span>123 Main Street<br />Brampton, ON L6V 1A1</span>
+                </div>
+                <div class="contact-item">
+                  <strong>📞</strong>
+                  <span>(905) 555-PAINT</span>
+                </div>
+                <div class="contact-item">
+                  <strong>✉️</strong>
+                  <span>hello@primecoat.ca</span>
+                </div>
+                <div class="contact-item">
+                  <strong>⏰</strong>
+                  <span>Mon-Sun: 8AM-6PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>
+              &copy; 2024 PrimeCoat Painting. All rights reserved. | Fully
+              Licensed & Insured
+            </p>
+          </div>
+        </footer>
+
+        <script src="firebase.js"></script>
+        <script src="script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
